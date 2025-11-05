@@ -183,5 +183,101 @@ else
 
 elif
 
-### if Statement
+### 6.1 if Statement:
+
+The if statement is a decision-making statement.
+
+It allows your program to execute a block of code only if a certain condition is true.
+
+#### Syntax
+<p align="center">
+<img width="369" height="103" alt="image" src="https://github.com/user-attachments/assets/8519d604-3e40-4861-ae78-0cff6c9ebf9f" />
+</p>
+
+
+#### Example
+```
+age = 20
+
+if age >= 18:
+    print("You are eligible to vote.")
+```
+### 6.2 if...else Statement
+Used when you want to do one thing if the condition is true, and something else if it’s false.
+
+#### Syntax
+
+<p align="center">
+<img width="433" height="154" alt="image" src="https://github.com/user-attachments/assets/b67754c8-2306-4e06-bcd4-04521ef510c5" />
+</p>
+
+#### Example
+```
+age = 16
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+```
+### 6.3 elif Statement
+Used when you have multiple conditions to check.
+
+#### Syntax
+<p align="center">
+<img width="623" height="254" alt="image" src="https://github.com/user-attachments/assets/5f613ec7-debe-4512-abaf-6af45aeee885" />
+</p>
+
+#### Example
+
+```
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Fail")
+```
+### 6.4 Nested `if`
+
+A `nested if` statement means an if statement **inside another** if statement.
+
+It allows you to check multiple conditions one inside another — useful for complex decision-making.
+
+#### Syntax
+<p align="center">
+<img width="654" height="251" alt="image" src="https://github.com/user-attachments/assets/2d2cc0a9-b243-41d0-b01a-ef26bfc6c508" />
+</p>
+
+#### Example
+```
+age = 20
+citizen = True
+
+if citizen:
+    if age >= 18:
+        print("You are eligible to vote.")
+    else:
+        print("You must be 18 or older to vote.")
+else:
+    print("You must be a citizen to vote.")
+```
+### 6.5 Indentation is Important
+```
+if True:
+print("Hello")   # ❌ Error — no indentation
+
+if True:
+    print("Hello")  # ✅ Correct
+```
+
+
+
+
+
+
 
