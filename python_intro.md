@@ -172,3 +172,16 @@ if = 5      # ❌ Error — 'if' is a keyword
 import keyword
 print(keyword.kwlist)
 ```
+## 6. Control Statements
+A control statement in Python is used to control the flow of execution of a program —
+that means deciding which part of the code should run and when.
+
+### Types of Control Statements
+if
+
+else
+
+elif
+
+### if Statement
+
