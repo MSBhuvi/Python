@@ -274,8 +274,27 @@ print("Hello")   # ❌ Error — no indentation
 if True:
     print("Hello")  # ✅ Correct
 ```
+### 6.6 Summary
 
+| **Type**           | **Description**                    | **Example**              |
+| ------------------ | ---------------------------------- | ------------------------ |
+| `if`               | Executes code if condition is true | `if x > 0:`              |
+| `if...else`        | Either one block executes          | `if x>0: else:`          |
+| `if...elif...else` | Multiple conditions                | `if x>0 elif x==0 else:` |
+| Nested `if`        | One `if` inside another            | `if x>0: if x%2==0:`     |
 
+### Python Programming Practice Report
+```
+1.Print your name, age, and favorite hobby in a single line.
+
+2.Display a welcome message: Welcome to Python Learning, <your name>!
+
+3.Print a short poem or quote using multiple `print`() lines.
+
+4.Print a shopping list with each item on a new line.
+
+5.Print your favorite movie name in uppercase letters.
+```
 
 
 
