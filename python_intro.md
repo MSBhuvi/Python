@@ -177,11 +177,13 @@ A control statement in Python is used to control the flow of execution of a prog
 that means deciding which part of the code should run and when.
 
 ### Types of Control Statements
+<p align="center">
 if
 
 else
 
 elif
+</p>
 
 ### 6.1 if Statement:
 
