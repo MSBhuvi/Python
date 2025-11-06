@@ -285,8 +285,10 @@ if True:
 | `if...elif...else` | Multiple conditions                | `if x>0 elif x==0 else:` |
 | Nested `if`        | One `if` inside another            | `if x>0: if x%2==0:`     |
 
-### Python Programming Practice Report
+### Python Programming Practice Report (print, variable, control statements)
 ```
+I.Print Statement
+
 1.Print your name, age, and favorite hobby in a single line.
 
 2.Display a welcome message: Welcome to Python Learning, <your name>!
@@ -296,9 +298,58 @@ if True:
 4.Print a shopping list with each item on a new line.
 
 5.Print your favorite movie name in uppercase letters.
+
+II.Variables
+
+1.Store your name, age, and city in variables and print them.
+
+2.Store the cost of 3 products and calculate the total bill.
+
+3.Create two variables a and b, swap their values, and print the result.
+
+4.Store your birth year and calculate your age.
+
+5.Store your school name in a variable and print:
+`"I study at <school_name>"`
+
+III.Control Statements
+
+1.Ask the user for their age — print if they are a child, teenager, or adult.
+
+2.Take temperature input — print “Hot”, “Warm”, or “Cold”.
+
+3.Ask for a number — print if it’s even or odd.
+
+4.Ask for marks — print the grade (A/B/C/Fail).
+
+5.Ask for a password — print “Access granted” only if correct.
 ```
 
+---
+## 7.Looping Statements
+A looping statement in Python is a programming structure that allows you to repeat a block of code multiple times —
+either a fixed number of times or until a specific condition becomes False.
 
+### Types
+**1. `for` loop**
 
+**2. `while` loop**
+
+**3. Nested loop**
+
+#### `for` loop (the most Pythonic loop)
+for iterates over any iterable (list, tuple, string, dict, set, file, generator, etc.).
+
+#### Syntax
+<p style="center">
+<img width="351" height="98" alt="image" src="https://github.com/user-attachments/assets/b5eadfaf-e7e8-4eba-aa50-b8b20e8579da" />
+</p>
+
+#### Examples
+```
+fruits = ["apple", "banana", "cherry"]
+for f in fruits:
+    print(f)
+```
 
 
